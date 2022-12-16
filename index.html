@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- HEAD -->
+  <head>
+    <title>PRIMER EXAMEN</title>
+    <meta charset="utf=8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <!-- BODY -->
+  <body>
+    <h1 id="title">PRIMER EXAMEN</h1>
+    <p id="description">Estoy aprendiendo html</p>
+    <form id="survey-form">
+    <!-- <form method="post" action='https://register-demo.freecodecamp.org'> -->
+    <label id="name-label" >Nombre: <input id="name" type="text" placeholder="Ingresa tu nombre" required></label>
+    <label id="email-label">Email: <input id="email" type="email" placeholder="Ingresa tu email" required></label>
+    <label id="number-label">Edad: <input id="number" type="number" min="12" max="100" placeholder="edad" required></label>
+    <label><input value="feme" type="radio" class="inline" name="sexo"/>Femenino</label>
+    <label><input value="masc" type="radio" class="inline" name="sexo"/>Masculino</label>
+    <label>Selecciona tu rol:
+      <select id="dropdown">
+        <option value="">(ocupacion)</option>
+        <option value="1">Estudiante</option>
+        <option value="2">Trabajador</option>
+        <option value="3">Otro</option>
+      </select>
+    </label>
+    <label>Escribe tu biografia:<textarea id="bio" name="bio" rows="3" cols="30" placeholder="Hola mundo!!!"></textarea>
+    </label>
+    <label><input value="boleta" type="checkbox" name="boleta" class="inline" >Deseo recibir correos cada mes.</label>
+    <label><input value="terminos" type="checkbox" name="terminos" class="inline" required>Acepto terminos y condiciones.</label>
+    <input id="submit" type="submit" value="Enviar"/>
+  </body>
+
+  <!-- FOOTER -->
+  <footer>
+  </footer>
+</html>
